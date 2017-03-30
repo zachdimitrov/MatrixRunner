@@ -26,7 +26,7 @@ window.addEventListener('load', function() {
     var width = window.innerWidth,
         height = window.innerHeight,
         gameTimer = 0,
-         lastTimer = 0;
+        lastTimer = 0;
 
     // templates
     var templateMenu = document.getElementById('menu-template').innerHTML,
@@ -183,7 +183,7 @@ window.addEventListener('load', function() {
 
         var input = document.querySelector("#playerName input");
         var name = input.value;
-		var getTime = document.getElementById('timer').innerHTML;
+        var getTime = document.getElementById('timer').innerHTML;
 
         var scoresHolder = document.getElementById("score");
 
@@ -327,7 +327,7 @@ window.addEventListener('load', function() {
                     // return to menu
                     menu.gameOver();
                     return;
-                } 
+                }
             }
         }
 
